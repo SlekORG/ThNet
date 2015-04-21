@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RTabBarViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readwrite, nonatomic) RTabBarViewController* mainTabViewController;
+@property (strong, nonatomic) UIMenuController *appMenu;
 
+- (void)signIn;
+- (void)signOut;
 
 @end
 

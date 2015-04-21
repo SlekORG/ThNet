@@ -135,6 +135,18 @@
 		07953AEE1AE61AF000DF0635 /* WSAssetViewSelectionIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 07953AA01AE61AF000DF0635 /* WSAssetViewSelectionIndicator.png */; };
 		07953AEF1AE61AF000DF0635 /* WSAssetViewSelectionIndicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07953AA11AE61AF000DF0635 /* WSAssetViewSelectionIndicator@2x.png */; };
 		07953AF01AE61AF000DF0635 /* WSAssetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953AA31AE61AF000DF0635 /* WSAssetWrapper.m */; };
+		07953AF81AE6221D00DF0635 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953AF61AE6221D00DF0635 /* MineViewController.m */; };
+		07953AF91AE6221D00DF0635 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953AF71AE6221D00DF0635 /* MineViewController.xib */; };
+		07953AFD1AE622F500DF0635 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953AFB1AE622F500DF0635 /* HomeViewController.m */; };
+		07953AFE1AE622F500DF0635 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953AFC1AE622F500DF0635 /* HomeViewController.xib */; };
+		07953B021AE6232D00DF0635 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B001AE6232D00DF0635 /* BrandViewController.m */; };
+		07953B031AE6232D00DF0635 /* BrandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B011AE6232D00DF0635 /* BrandViewController.xib */; };
+		07953B071AE6235600DF0635 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B051AE6235600DF0635 /* CategoryViewController.m */; };
+		07953B081AE6235600DF0635 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B061AE6235600DF0635 /* CategoryViewController.xib */; };
+		07953B1A1AE624E200DF0635 /* NewIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B171AE624E200DF0635 /* NewIntroView.m */; };
+		07953B1B1AE624E200DF0635 /* NewIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B191AE624E200DF0635 /* NewIntroViewController.m */; };
+		07953B1F1AE624F700DF0635 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B1D1AE624F700DF0635 /* LoginViewController.m */; };
+		07953B201AE624F700DF0635 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B1E1AE624F700DF0635 /* LoginViewController.xib */; };
 		07FAD87B1AE4ADFC00F43D0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD87A1AE4ADFC00F43D0C /* main.m */; };
 		07FAD87E1AE4ADFC00F43D0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD87D1AE4ADFC00F43D0C /* AppDelegate.m */; };
 		07FAD8811AE4ADFC00F43D0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD8801AE4ADFC00F43D0C /* ViewController.m */; };
@@ -404,6 +416,25 @@
 		07953AA11AE61AF000DF0635 /* WSAssetViewSelectionIndicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WSAssetViewSelectionIndicator@2x.png"; sourceTree = "<group>"; };
 		07953AA21AE61AF000DF0635 /* WSAssetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAssetWrapper.h; sourceTree = "<group>"; };
 		07953AA31AE61AF000DF0635 /* WSAssetWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAssetWrapper.m; sourceTree = "<group>"; };
+		07953AF51AE6221D00DF0635 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = ViewControllers/Main/MineViewController.h; sourceTree = "<group>"; };
+		07953AF61AE6221D00DF0635 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = ViewControllers/Main/MineViewController.m; sourceTree = "<group>"; };
+		07953AF71AE6221D00DF0635 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MineViewController.xib; path = ViewControllers/Main/MineViewController.xib; sourceTree = "<group>"; };
+		07953AFA1AE622F500DF0635 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/Main/HomeViewController.h; sourceTree = "<group>"; };
+		07953AFB1AE622F500DF0635 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/Main/HomeViewController.m; sourceTree = "<group>"; };
+		07953AFC1AE622F500DF0635 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/Main/HomeViewController.xib; sourceTree = "<group>"; };
+		07953AFF1AE6232D00DF0635 /* BrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrandViewController.h; path = ViewControllers/Main/BrandViewController.h; sourceTree = "<group>"; };
+		07953B001AE6232D00DF0635 /* BrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrandViewController.m; path = ViewControllers/Main/BrandViewController.m; sourceTree = "<group>"; };
+		07953B011AE6232D00DF0635 /* BrandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BrandViewController.xib; path = ViewControllers/Main/BrandViewController.xib; sourceTree = "<group>"; };
+		07953B041AE6235600DF0635 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryViewController.h; path = ViewControllers/Main/CategoryViewController.h; sourceTree = "<group>"; };
+		07953B051AE6235600DF0635 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryViewController.m; path = ViewControllers/Main/CategoryViewController.m; sourceTree = "<group>"; };
+		07953B061AE6235600DF0635 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryViewController.xib; path = ViewControllers/Main/CategoryViewController.xib; sourceTree = "<group>"; };
+		07953B161AE624E200DF0635 /* NewIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewIntroView.h; path = NewIntro/NewIntroView.h; sourceTree = "<group>"; };
+		07953B171AE624E200DF0635 /* NewIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewIntroView.m; path = NewIntro/NewIntroView.m; sourceTree = "<group>"; };
+		07953B181AE624E200DF0635 /* NewIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewIntroViewController.h; path = NewIntro/NewIntroViewController.h; sourceTree = "<group>"; };
+		07953B191AE624E200DF0635 /* NewIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewIntroViewController.m; path = NewIntro/NewIntroViewController.m; sourceTree = "<group>"; };
+		07953B1C1AE624F700DF0635 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/Login/LoginViewController.h; sourceTree = "<group>"; };
+		07953B1D1AE624F700DF0635 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/Login/LoginViewController.m; sourceTree = "<group>"; };
+		07953B1E1AE624F700DF0635 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewControllers/Login/LoginViewController.xib; sourceTree = "<group>"; };
 		07FAD8751AE4ADFC00F43D0C /* thNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FAD8791AE4ADFC00F43D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FAD87A1AE4ADFC00F43D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -542,6 +573,10 @@
 		079538FB1AE5F27300DF0635 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				07953AF41AE6212B00DF0635 /* Detail */,
+				07953AF31AE6210600DF0635 /* Mine */,
+				07953AF21AE620FB00DF0635 /* Main */,
+				07953AF11AE620E200DF0635 /* Login */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -964,6 +999,60 @@
 			path = External/WSAssetWrapper;
 			sourceTree = "<group>";
 		};
+		07953AF11AE620E200DF0635 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07953B1C1AE624F700DF0635 /* LoginViewController.h */,
+				07953B1D1AE624F700DF0635 /* LoginViewController.m */,
+				07953B1E1AE624F700DF0635 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		07953AF21AE620FB00DF0635 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				07953AFA1AE622F500DF0635 /* HomeViewController.h */,
+				07953AFB1AE622F500DF0635 /* HomeViewController.m */,
+				07953AFC1AE622F500DF0635 /* HomeViewController.xib */,
+				07953AFF1AE6232D00DF0635 /* BrandViewController.h */,
+				07953B001AE6232D00DF0635 /* BrandViewController.m */,
+				07953B011AE6232D00DF0635 /* BrandViewController.xib */,
+				07953B041AE6235600DF0635 /* CategoryViewController.h */,
+				07953B051AE6235600DF0635 /* CategoryViewController.m */,
+				07953B061AE6235600DF0635 /* CategoryViewController.xib */,
+				07953AF51AE6221D00DF0635 /* MineViewController.h */,
+				07953AF61AE6221D00DF0635 /* MineViewController.m */,
+				07953AF71AE6221D00DF0635 /* MineViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		07953AF31AE6210600DF0635 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		07953AF41AE6212B00DF0635 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		07953B151AE6246A00DF0635 /* NewIntro */ = {
+			isa = PBXGroup;
+			children = (
+				07953B161AE624E200DF0635 /* NewIntroView.h */,
+				07953B171AE624E200DF0635 /* NewIntroView.m */,
+				07953B181AE624E200DF0635 /* NewIntroViewController.h */,
+				07953B191AE624E200DF0635 /* NewIntroViewController.m */,
+			);
+			name = NewIntro;
+			sourceTree = "<group>";
+		};
 		07FAD86C1AE4ADFC00F43D0C = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1080,7 @@
 				079538F51AE5F20E00DF0635 /* Engine */,
 				079538F81AE5F24600DF0635 /* Base */,
 				079538F71AE5F23000DF0635 /* TabBar */,
+				07953B151AE6246A00DF0635 /* NewIntro */,
 				079538F61AE5F22200DF0635 /* Model */,
 				079538FB1AE5F27300DF0635 /* ViewControllers */,
 				079538FA1AE5F26600DF0635 /* Views */,
@@ -1115,10 +1205,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				07953AD01AE61AF000DF0635 /* README in Resources */,
+				07953B031AE6232D00DF0635 /* BrandViewController.xib in Resources */,
 				07953AC91AE61AF000DF0635 /* ProgressHUD.bundle in Resources */,
+				07953B201AE624F700DF0635 /* LoginViewController.xib in Resources */,
 				079539441AE5F70800DF0635 /* RTitleNavBarView.xib in Resources */,
 				079539201AE5F56B00DF0635 /* RTabBarItemView.xib in Resources */,
 				079539221AE5F56B00DF0635 /* RTabBarView.xib in Resources */,
+				07953AF91AE6221D00DF0635 /* MineViewController.xib in Resources */,
 				07953AEF1AE61AF000DF0635 /* WSAssetViewSelectionIndicator@2x.png in Resources */,
 				07953ACC1AE61AF000DF0635 /* arrow.png in Resources */,
 				07953ACE1AE61AF000DF0635 /* LICENSE in Resources */,
@@ -1126,8 +1219,10 @@
 				07953AC31AE61AF000DF0635 /* MWPhotoBrowser.bundle in Resources */,
 				07953ACD1AE61AF000DF0635 /* arrow@2x.png in Resources */,
 				07FAD8841AE4ADFC00F43D0C /* Main.storyboard in Resources */,
+				07953B081AE6235600DF0635 /* CategoryViewController.xib in Resources */,
 				07FAD8891AE4ADFC00F43D0C /* LaunchScreen.xib in Resources */,
 				07FAD8861AE4ADFC00F43D0C /* Images.xcassets in Resources */,
+				07953AFE1AE622F500DF0635 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1258,7 @@
 				079539431AE5F70800DF0635 /* RTitleNavBarView.m in Sources */,
 				079539211AE5F56B00DF0635 /* RTabBarView.m in Sources */,
 				079539091AE5F46A00DF0635 /* RSettingConfig.m in Sources */,
+				07953B021AE6232D00DF0635 /* BrandViewController.m in Sources */,
 				07953AB11AE61AF000DF0635 /* MWPhotoBrowser.m in Sources */,
 				07953AE71AE61AF000DF0635 /* UIImageExtras.m in Sources */,
 				079539DB1AE61AA500DF0635 /* AFURLSessionManager.m in Sources */,
@@ -1174,6 +1270,7 @@
 				07953AD61AE61AF000DF0635 /* SDWebImageDecoder.m in Sources */,
 				07953AE31AE61AF000DF0635 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				07953AAB1AE61AF000DF0635 /* LSReachability.m in Sources */,
+				07953AFD1AE622F500DF0635 /* HomeViewController.m in Sources */,
 				07953AAD1AE61AF000DF0635 /* MWCaptionView.m in Sources */,
 				07953AAA1AE61AF000DF0635 /* README.md in Sources */,
 				079539DA1AE61AA500DF0635 /* AFURLResponseSerialization.m in Sources */,
@@ -1204,9 +1301,11 @@
 				07953AA71AE61AF000DF0635 /* UIImage+HQ.m in Sources */,
 				07953AF01AE61AF000DF0635 /* WSAssetWrapper.m in Sources */,
 				07953AD31AE61AF000DF0635 /* NSData+ImageContentType.m in Sources */,
+				07953B071AE6235600DF0635 /* CategoryViewController.m in Sources */,
 				079539951AE5F8B700DF0635 /* RUIUtils.m in Sources */,
 				07953AC51AE61AF000DF0635 /* AVCamRecorder.m in Sources */,
 				07953AC81AE61AF000DF0635 /* ODRefreshControl.m in Sources */,
+				07953B1B1AE624E200DF0635 /* NewIntroViewController.m in Sources */,
 				079539451AE5F70800DF0635 /* SuperMainViewController.m in Sources */,
 				07953ACB1AE61AF000DF0635 /* ProgressHUDJF.m in Sources */,
 				07953AA51AE61AF000DF0635 /* HPTextViewInternal.m in Sources */,
@@ -1216,6 +1315,8 @@
 				07953AEB1AE61AF000DF0635 /* WSAssetsTableViewCell.m in Sources */,
 				07953ACA1AE61AF000DF0635 /* ProgressHUD.m in Sources */,
 				079539D41AE61AA500DF0635 /* AFHTTPRequestOperationManager.m in Sources */,
+				07953AF81AE6221D00DF0635 /* MineViewController.m in Sources */,
+				07953B1F1AE624F700DF0635 /* LoginViewController.m in Sources */,
 				07953AB41AE61AF000DF0635 /* MWZoomingScrollView.m in Sources */,
 				079539F21AE61AE200DF0635 /* GMGridView.m in Sources */,
 				079539401AE5F70800DF0635 /* RBaseSuperViewController.m in Sources */,
@@ -1239,6 +1340,7 @@
 				079539691AE5F7E100DF0635 /* XEProgressHUD.m in Sources */,
 				079539941AE5F8B700DF0635 /* RCommonUtils.m in Sources */,
 				079539961AE5F8B700DF0635 /* UIImage+ProportionalFill.m in Sources */,
+				07953B1A1AE624E200DF0635 /* NewIntroView.m in Sources */,
 				07953AE91AE61AF000DF0635 /* WSAssetPickerController.m in Sources */,
 				07953AA41AE61AF000DF0635 /* HPGrowingTextView.m in Sources */,
 				07953AC71AE61AF000DF0635 /* DDExpandableButton.m in Sources */,

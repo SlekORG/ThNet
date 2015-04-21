@@ -109,15 +109,19 @@
         if (tagIndex == 0) {
             tabItem.itemIconImageView.image = [UIImage imageNamed:@"main_tabbar_icon"];
             tabItem.itemIconImageView.highlightedImage = [UIImage imageNamed:@"main_tabbar_icon_hover"];
-            tabItem.itemLabel.text = @"找房";
+            tabItem.itemLabel.text = @"精品";
         }else if (tagIndex == 1){
             tabItem.itemIconImageView.image = [UIImage imageNamed:@"mine_tabbar_icon"];
             tabItem.itemIconImageView.highlightedImage = [UIImage imageNamed:@"mine_tabbar_icon_hover"];
-            tabItem.itemLabel.text = @"我的";
+            tabItem.itemLabel.text = @"品牌";
         }else if (tagIndex == 2){
             tabItem.itemIconImageView.image = [UIImage imageNamed:@"chat_tabbar_icon"];
             tabItem.itemIconImageView.highlightedImage = [UIImage imageNamed:@"chat_tabbar_icon_hover"];
-            tabItem.itemLabel.text = @"更多";
+            tabItem.itemLabel.text = @"分类";
+        }else if (tagIndex == 3){
+            tabItem.itemIconImageView.image = [UIImage imageNamed:@"chat_tabbar_icon"];
+            tabItem.itemIconImageView.highlightedImage = [UIImage imageNamed:@"chat_tabbar_icon_hover"];
+            tabItem.itemLabel.text = @"我的";
         }
     
         [controllerTabs addObject:tabItem];
