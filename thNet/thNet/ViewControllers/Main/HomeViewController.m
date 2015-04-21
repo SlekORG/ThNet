@@ -7,9 +7,17 @@
 //
 
 #import "HomeViewController.h"
+#import "RTabBarViewController.h"
 #import "REngine.h"
+#import "XEProgressHUD.h"
+#import "XEScrollPage.h"
+#import "XECollectionViewCell.h"
 
-@interface HomeViewController ()
+@interface HomeViewController ()<XEScrollPageDelegate, UICollectionViewDataSource, UICollectionViewDelegate>{
+    
+}
+
+@property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
@@ -18,6 +26,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.collectionView registerClass:[XECollectionViewCell class] forCellWithReuseIdentifier:@"XECollectionViewCell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,6 +41,17 @@
         [self setRightButtonWithTitle:@"登录" selector:@selector(loginAction)];
     }
 }
+
+- (BOOL)isVisitor{
+    if (![[REngine shareInstance] hasAccoutLoggedin]) {
+        return YES;
+    }
+    return NO;
+}
+
+
+
+
 
 - (void)loginAction{
     

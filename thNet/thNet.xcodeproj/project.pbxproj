@@ -147,6 +147,10 @@
 		07953B1B1AE624E200DF0635 /* NewIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B191AE624E200DF0635 /* NewIntroViewController.m */; };
 		07953B1F1AE624F700DF0635 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B1D1AE624F700DF0635 /* LoginViewController.m */; };
 		07953B201AE624F700DF0635 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B1E1AE624F700DF0635 /* LoginViewController.xib */; };
+		07953B251AE6445B00DF0635 /* XEScrollPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B231AE6445B00DF0635 /* XEScrollPage.m */; };
+		07953B261AE6445B00DF0635 /* XEScrollPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B241AE6445B00DF0635 /* XEScrollPage.xib */; };
+		07953B2B1AE6477C00DF0635 /* XECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07953B291AE6477C00DF0635 /* XECollectionViewCell.m */; };
+		07953B2C1AE6477C00DF0635 /* XECollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07953B2A1AE6477C00DF0635 /* XECollectionViewCell.xib */; };
 		07FAD87B1AE4ADFC00F43D0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD87A1AE4ADFC00F43D0C /* main.m */; };
 		07FAD87E1AE4ADFC00F43D0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD87D1AE4ADFC00F43D0C /* AppDelegate.m */; };
 		07FAD8811AE4ADFC00F43D0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FAD8801AE4ADFC00F43D0C /* ViewController.m */; };
@@ -435,6 +439,12 @@
 		07953B1C1AE624F700DF0635 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/Login/LoginViewController.h; sourceTree = "<group>"; };
 		07953B1D1AE624F700DF0635 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/Login/LoginViewController.m; sourceTree = "<group>"; };
 		07953B1E1AE624F700DF0635 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewControllers/Login/LoginViewController.xib; sourceTree = "<group>"; };
+		07953B221AE6445B00DF0635 /* XEScrollPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XEScrollPage.h; sourceTree = "<group>"; };
+		07953B231AE6445B00DF0635 /* XEScrollPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XEScrollPage.m; sourceTree = "<group>"; };
+		07953B241AE6445B00DF0635 /* XEScrollPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XEScrollPage.xib; sourceTree = "<group>"; };
+		07953B281AE6477C00DF0635 /* XECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XECollectionViewCell.h; sourceTree = "<group>"; };
+		07953B291AE6477C00DF0635 /* XECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XECollectionViewCell.m; sourceTree = "<group>"; };
+		07953B2A1AE6477C00DF0635 /* XECollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XECollectionViewCell.xib; sourceTree = "<group>"; };
 		07FAD8751AE4ADFC00F43D0C /* thNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FAD8791AE4ADFC00F43D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07FAD87A1AE4ADFC00F43D0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -549,6 +559,7 @@
 		079538F91AE5F25700DF0635 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				07953B211AE6445B00DF0635 /* XEScrollPage */,
 				0795395B1AE5F7E100DF0635 /* RAlertView.h */,
 				0795395C1AE5F7E100DF0635 /* RAlertView.m */,
 				0795395D1AE5F7E100DF0635 /* RCommonVcTransition.h */,
@@ -566,6 +577,7 @@
 		079538FA1AE5F26600DF0635 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				07953B271AE6472200DF0635 /* Main */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -1053,6 +1065,27 @@
 			name = NewIntro;
 			sourceTree = "<group>";
 		};
+		07953B211AE6445B00DF0635 /* XEScrollPage */ = {
+			isa = PBXGroup;
+			children = (
+				07953B221AE6445B00DF0635 /* XEScrollPage.h */,
+				07953B231AE6445B00DF0635 /* XEScrollPage.m */,
+				07953B241AE6445B00DF0635 /* XEScrollPage.xib */,
+			);
+			name = XEScrollPage;
+			path = Common/XEScrollPage;
+			sourceTree = "<group>";
+		};
+		07953B271AE6472200DF0635 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				07953B281AE6477C00DF0635 /* XECollectionViewCell.h */,
+				07953B291AE6477C00DF0635 /* XECollectionViewCell.m */,
+				07953B2A1AE6477C00DF0635 /* XECollectionViewCell.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		07FAD86C1AE4ADFC00F43D0C = {
 			isa = PBXGroup;
 			children = (
@@ -1214,6 +1247,8 @@
 				07953AF91AE6221D00DF0635 /* MineViewController.xib in Resources */,
 				07953AEF1AE61AF000DF0635 /* WSAssetViewSelectionIndicator@2x.png in Resources */,
 				07953ACC1AE61AF000DF0635 /* arrow.png in Resources */,
+				07953B261AE6445B00DF0635 /* XEScrollPage.xib in Resources */,
+				07953B2C1AE6477C00DF0635 /* XECollectionViewCell.xib in Resources */,
 				07953ACE1AE61AF000DF0635 /* LICENSE in Resources */,
 				07953AEE1AE61AF000DF0635 /* WSAssetViewSelectionIndicator.png in Resources */,
 				07953AC31AE61AF000DF0635 /* MWPhotoBrowser.bundle in Resources */,
@@ -1320,6 +1355,7 @@
 				07953AB41AE61AF000DF0635 /* MWZoomingScrollView.m in Sources */,
 				079539F21AE61AE200DF0635 /* GMGridView.m in Sources */,
 				079539401AE5F70800DF0635 /* RBaseSuperViewController.m in Sources */,
+				07953B251AE6445B00DF0635 /* XEScrollPage.m in Sources */,
 				07953ADF1AE61AF000DF0635 /* UIImageView+HighlightedWebCache.m in Sources */,
 				07953AB21AE61AF000DF0635 /* MWTapDetectingImageView.m in Sources */,
 				07953ADE1AE61AF000DF0635 /* UIImage+WebP.m in Sources */,
@@ -1340,6 +1376,7 @@
 				079539691AE5F7E100DF0635 /* XEProgressHUD.m in Sources */,
 				079539941AE5F8B700DF0635 /* RCommonUtils.m in Sources */,
 				079539961AE5F8B700DF0635 /* UIImage+ProportionalFill.m in Sources */,
+				07953B2B1AE6477C00DF0635 /* XECollectionViewCell.m in Sources */,
 				07953B1A1AE624E200DF0635 /* NewIntroView.m in Sources */,
 				07953AE91AE61AF000DF0635 /* WSAssetPickerController.m in Sources */,
 				07953AA41AE61AF000DF0635 /* HPGrowingTextView.m in Sources */,
