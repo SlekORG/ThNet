@@ -8,8 +8,8 @@
 
 #import "XEScrollPage.h"
 #import "UIImageView+WebCache.h"
-#import "XEThemeInfo.h"
-#import "MainPageViewController.h"
+//#import "XEThemeInfo.h"
+#import "HomeViewController.h"
 
 #define XE_ADS_BASE_TAG 10010
 #define UNSelected_Color [UIColor colorWithRed:(1.0 * 172 / 255) green:(1.0 * 177 / 255) blue:(1.0 * 183 / 255) alpha:1]
@@ -73,20 +73,20 @@
     
     if (_adsType == AdsType_Theme) {
         [_adsHideBtn setHidden:YES];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setAdsViewShow:) name:XE_MAIN_SHOW_ADS_VIEW_NOTIFICATION object:nil];
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setAdsViewStop:) name:XE_MAIN_STOP_ADS_VIEW_NOTIFICATION object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setAdsViewShow:) name:XE_MAIN_SHOW_ADS_VIEW_NOTIFICATION object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setAdsViewStop:) name:XE_MAIN_STOP_ADS_VIEW_NOTIFICATION object:nil];
     }
 
-    XEThemeInfo *theme;
-    theme = [_dataArray lastObject];
-    [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:-1];
-    for (int i = 0; i < [_dataArray count]; i++) {
-        theme = [_dataArray objectAtIndex:i];
-        [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:i];
-    }
-    
-    theme = [_dataArray firstObject];
-    [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:_dataArray.count];
+//    XEThemeInfo *theme;
+//    theme = [_dataArray lastObject];
+//    [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:-1];
+//    for (int i = 0; i < [_dataArray count]; i++) {
+//        theme = [_dataArray objectAtIndex:i];
+//        [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:i];
+//    }
+//    
+//    theme = [_dataArray firstObject];
+//    [self addSubviewToScrollView:_adsScrollView withURL:theme.originalThemeImageUrl withTag:_dataArray.count];
     
     //多算两屏,默认第二屏
     _adsScrollView.contentSize = CGSizeMake((_dataArray.count + 2)*frame.size.width,frame.size.height);
